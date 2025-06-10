@@ -1,0 +1,76 @@
+.fuse-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #333;
+  }
+  
+  .fuse-status {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .fuse-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .fuse-column {
+    flex: 1 1 200px;
+    text-align: center;
+  }
+  
+  .fuse-img {
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(5px 5px 3px #000000);
+  }
+  
+  .fuse-select {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .fuse-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    background-color: #007bff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .fuse-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .fuse-preview {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+  }
+  
+  .fuse-fusion-text {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #222;
+  }
+  
